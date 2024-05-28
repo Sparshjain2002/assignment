@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Transport Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Vehicle Transport Converter</h1>
+        <div class="input-container">
+            <label for="distance">Enter Distance (KM):</label>
+            <input type="number" id="distance" name="distance" required>
+        </div>
+        <div class="input-container">
+            <label>Select Vehicle:</label>
+            <div id="vehicle-options"></div>
+        </div>
+        <button id="calculate-button">Calculate</button>
+        <div id="result"></div>
+        <h2>Comparison with Other Vehicles</h2>
+        <div id="comparison"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
